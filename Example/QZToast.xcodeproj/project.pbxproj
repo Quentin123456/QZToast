@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* QZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* QZAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* QZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* QZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,7 @@
 		60AD066D448D19EDC1208F61 /* Pods_QZToast_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C11D8B6D05A9D91815F395 /* Pods_QZToast_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A12022522327D4AB0042AB55 /* ToastTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12022512327D4AB0042AB55 /* ToastTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		0AD2CB1BCC1BD5222111550B /* Pods-QZToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZToast_Example.release.xcconfig"; path = "Target Support Files/Pods-QZToast_Example/Pods-QZToast_Example.release.xcconfig"; sourceTree = "<group>"; };
-		14391F8A4BC54B371E2EB2FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		14391F8A4BC54B371E2EB2FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2E04245B99BB57CDB01EC2B2 /* Pods-QZToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZToast_Tests.release.xcconfig"; path = "Target Support Files/Pods-QZToast_Tests/Pods-QZToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3B8137449C30D0EEBA267697 /* Pods_QZToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F271C2CC541E7ECA8DECA28 /* QZToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QZToast.podspec; path = ../QZToast.podspec; sourceTree = "<group>"; };
+		3F271C2CC541E7ECA8DECA28 /* QZToast.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QZToast.podspec; path = ../QZToast.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* QZToast_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZToast_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,8 +52,6 @@
 		6003F59B195388D20070C39A /* QZToast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QZToast-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* QZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QZAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* QZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* QZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QZViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* QZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* QZToast_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZToast_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,7 +62,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9692B0DE8EA0AF3DB4B35923 /* Pods-QZToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZToast_Example.debug.xcconfig"; path = "Target Support Files/Pods-QZToast_Example/Pods-QZToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A094A4A9D96005C9102516FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A094A4A9D96005C9102516FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A12022502327D4AB0042AB55 /* ToastTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastTableViewController.h; sourceTree = "<group>"; };
+		A12022512327D4AB0042AB55 /* ToastTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastTableViewController.m; sourceTree = "<group>"; };
 		D1379D12DE7074DCF842CBD3 /* Pods-QZToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZToast_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QZToast_Tests/Pods-QZToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E5C11D8B6D05A9D91815F395 /* Pods_QZToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,9 +134,9 @@
 			children = (
 				6003F59C195388D20070C39A /* QZAppDelegate.h */,
 				6003F59D195388D20070C39A /* QZAppDelegate.m */,
+				A12022502327D4AB0042AB55 /* ToastTableViewController.h */,
+				A12022512327D4AB0042AB55 /* ToastTableViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* QZViewController.h */,
-				6003F5A6195388D20070C39A /* QZViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +193,6 @@
 				D1379D12DE7074DCF842CBD3 /* Pods-QZToast_Tests.debug.xcconfig */,
 				2E04245B99BB57CDB01EC2B2 /* Pods-QZToast_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,8 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* QZAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* QZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A12022522327D4AB0042AB55 /* ToastTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

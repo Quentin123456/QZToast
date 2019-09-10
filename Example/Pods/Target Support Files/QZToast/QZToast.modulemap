@@ -1,0 +1,6 @@
+framework module QZToast {
+  umbrella header "QZToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - QZToast (1.0.0)
+
+DEPENDENCIES:
+  - QZToast (from `../`)
+
+EXTERNAL SOURCES:
+  QZToast:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QZToast: b8747014436d3a51391aaf606f25538ddc547ce7
+
+PODFILE CHECKSUM: d39c6cf607de9eb099a08dcbb20342fae9aca7da
+
+COCOAPODS: 1.7.5

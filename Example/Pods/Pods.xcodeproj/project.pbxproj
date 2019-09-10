@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1547904FE3DBE0D06932748D55605D3F /* Pods-QZToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0CFE32AB940A1CE5F9DA6001E04A8E /* Pods-QZToast_Tests-dummy.m */; };
+		460C48F3BD34D9975AB70064FE716182 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 1252BD151822BCAAB0B2AED94A86B721 /* UIView+Toast.m */; };
+		48520AA96968533A79363543E3F1E88E /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C364C97454291FCA6ECA16F3885ED6A /* UIView+Toast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AA8C847143F9243BB8464264BC200DD /* Pods-QZToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F0CF940F2FBEF10ECDF5CC1A0F6334 /* Pods-QZToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		614289CB5E94765F1FE743681B17C692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7F4F627923C264F6CFA2498C23E973C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7FF5529CF0258B165C5E405332B34306 /* Pods-QZToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8D9336359D5D17036ADA44C8C8D610 /* Pods-QZToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA644EAE841D329718833DA4B6FEF06D /* QZToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B36298B7BC9374190979DB2270954342 /* QZToast-dummy.m */; };
+		C40F5B9B42289DFEE7C728D5CEF22828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D1685634083EBC5632E977B0217FBB7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		EFBDD52AFC3062870652601B61629210 /* Pods-QZToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C68CFD41EF619AC7A456195C9AF8E9 /* Pods-QZToast_Example-dummy.m */; };
+		F91D793B27C543C3CC1960544362756C /* QZToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E48EF0F294DDD955758ADCC98D36B40 /* QZToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05D7778861926930746E30AD7941818F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE571769B905DA6B1B424C560C90C98;
+			remoteInfo = QZToast;
+		};
+		2379B86D5823E6E5AA1CFDF2A38A0EC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7184169D43433E76E3AD20B65CC82212;
+			remoteInfo = "Pods-QZToast_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104A2D5110F3D123792B275DA2968641 /* QZToast.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QZToast.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1252BD151822BCAAB0B2AED94A86B721 /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Toast.m"; path = "QZToast/Classes/Toast/UIView+Toast.m"; sourceTree = "<group>"; };
+		21429AE553D983D16EF37AC6E5691D50 /* QZToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QZToast.framework; path = QZToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB3098D148D656078ADABC99CC21818 /* Pods-QZToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E48EF0F294DDD955758ADCC98D36B40 /* QZToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZToast-umbrella.h"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46441F1587205C64187D0BC0B761EF74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4AD24DE48E5FB80E66C3883412CF0699 /* QZToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZToast-prefix.pch"; sourceTree = "<group>"; };
+		51B371183A458E4F3A68490608C1E043 /* Pods-QZToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZToast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		56C68CFD41EF619AC7A456195C9AF8E9 /* Pods-QZToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZToast_Example-dummy.m"; sourceTree = "<group>"; };
+		65F1A816D0D85150579FB266CDB06F06 /* Pods-QZToast_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZToast_Tests-Info.plist"; sourceTree = "<group>"; };
+		6B8D9336359D5D17036ADA44C8C8D610 /* Pods-QZToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZToast_Example-umbrella.h"; sourceTree = "<group>"; };
+		6BC7616EFB99A2DE2EB68C12380931DC /* QZToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QZToast.modulemap; sourceTree = "<group>"; };
+		6C5D6E519154E7CFB573F158FBDCBA38 /* QZToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QZToast-Info.plist"; sourceTree = "<group>"; };
+		84D3845B86420CA4408AF544BBA8F172 /* Pods-QZToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		84F0CF940F2FBEF10ECDF5CC1A0F6334 /* Pods-QZToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZToast_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8C364C97454291FCA6ECA16F3885ED6A /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "QZToast/Classes/Toast/UIView+Toast.h"; sourceTree = "<group>"; };
+		9722A905C4DA35F6C026A57DCE806D4E /* Pods-QZToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD2C78A6F69F6F244EFF6B08AD9FF4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9DEE37D7DA829A97B6E45B43D3BC4A11 /* Pods_QZToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QZToast_Tests.framework; path = "Pods-QZToast_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E55463CC71B8218F9A355054FDE5521 /* Pods-QZToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0CFE32AB940A1CE5F9DA6001E04A8E /* Pods-QZToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZToast_Tests-dummy.m"; sourceTree = "<group>"; };
+		B204F3661E89D218627C6FD2598AAD91 /* Pods-QZToast_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZToast_Example-Info.plist"; sourceTree = "<group>"; };
+		B36298B7BC9374190979DB2270954342 /* QZToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QZToast-dummy.m"; sourceTree = "<group>"; };
+		BFEC984ACB8C9F9FB66141FCFB761F80 /* Pods-QZToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC7CBD8188800920607B85FD7100EB8 /* Pods-QZToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QZToast_Example.modulemap"; sourceTree = "<group>"; };
+		D3CFE1FE90522D7C5E3B23B72BE9135C /* QZToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QZToast.xcconfig; sourceTree = "<group>"; };
+		E410625BAF2E1705A4AA26DF012C9700 /* Pods-QZToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QZToast_Tests.modulemap"; sourceTree = "<group>"; };
+		E9C4725647AB6B7C5E1F8AFBEFFA0F98 /* Pods-QZToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1A0E1D45B25FBAB0FAC70537734D9BC /* Pods-QZToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6E1CBC43CD698D4BB74611C1BDE1200 /* Pods_QZToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QZToast_Example.framework; path = "Pods-QZToast_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C8472C2C44CA8F1C6F8C8FC24019CF /* Pods-QZToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZToast_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD59B4010E82815F067250606B19E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4F627923C264F6CFA2498C23E973C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48B75E93D06A1635A9A820D5D8A463DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614289CB5E94765F1FE743681B17C692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6EBF83472C40807B0366CBFAAFEB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40F5B9B42289DFEE7C728D5CEF22828 /* Foundation.framework in Frameworks */,
+				D1685634083EBC5632E977B0217FBB7A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C4E78113C7A015B0349B1CED600684 /* QZToast */ = {
+			isa = PBXGroup;
+			children = (
+				8C364C97454291FCA6ECA16F3885ED6A /* UIView+Toast.h */,
+				1252BD151822BCAAB0B2AED94A86B721 /* UIView+Toast.m */,
+				189F0AA6D893699BE508173D6E009BB0 /* Pod */,
+				D98AAF15480101A15CCF0E12A4261A15 /* Support Files */,
+			);
+			name = QZToast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		189F0AA6D893699BE508173D6E009BB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46441F1587205C64187D0BC0B761EF74 /* LICENSE */,
+				104A2D5110F3D123792B275DA2968641 /* QZToast.podspec */,
+				9DD2C78A6F69F6F244EFF6B08AD9FF4D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		203B69B49358F535F40A56D40A923591 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5713C905C3113D1A8BACB176A388614E /* Pods-QZToast_Example */,
+				CEE2C38710828CF981C780AC371098BA /* Pods-QZToast_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5713C905C3113D1A8BACB176A388614E /* Pods-QZToast_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7CBD8188800920607B85FD7100EB8 /* Pods-QZToast_Example.modulemap */,
+				BFEC984ACB8C9F9FB66141FCFB761F80 /* Pods-QZToast_Example-acknowledgements.markdown */,
+				F1A0E1D45B25FBAB0FAC70537734D9BC /* Pods-QZToast_Example-acknowledgements.plist */,
+				56C68CFD41EF619AC7A456195C9AF8E9 /* Pods-QZToast_Example-dummy.m */,
+				51B371183A458E4F3A68490608C1E043 /* Pods-QZToast_Example-frameworks.sh */,
+				B204F3661E89D218627C6FD2598AAD91 /* Pods-QZToast_Example-Info.plist */,
+				6B8D9336359D5D17036ADA44C8C8D610 /* Pods-QZToast_Example-umbrella.h */,
+				9E55463CC71B8218F9A355054FDE5521 /* Pods-QZToast_Example.debug.xcconfig */,
+				F9C8472C2C44CA8F1C6F8C8FC24019CF /* Pods-QZToast_Example.release.xcconfig */,
+			);
+			name = "Pods-QZToast_Example";
+			path = "Target Support Files/Pods-QZToast_Example";
+			sourceTree = "<group>";
+		};
+		79A81380F03F2DDD2EAB557A23F11ABF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00C4E78113C7A015B0349B1CED600684 /* QZToast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CE8AE5C4CF7365E7F61633A17E7C57B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E1CBC43CD698D4BB74611C1BDE1200 /* Pods_QZToast_Example.framework */,
+				9DEE37D7DA829A97B6E45B43D3BC4A11 /* Pods_QZToast_Tests.framework */,
+				21429AE553D983D16EF37AC6E5691D50 /* QZToast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE2C38710828CF981C780AC371098BA /* Pods-QZToast_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E410625BAF2E1705A4AA26DF012C9700 /* Pods-QZToast_Tests.modulemap */,
+				2BB3098D148D656078ADABC99CC21818 /* Pods-QZToast_Tests-acknowledgements.markdown */,
+				9722A905C4DA35F6C026A57DCE806D4E /* Pods-QZToast_Tests-acknowledgements.plist */,
+				AF0CFE32AB940A1CE5F9DA6001E04A8E /* Pods-QZToast_Tests-dummy.m */,
+				65F1A816D0D85150579FB266CDB06F06 /* Pods-QZToast_Tests-Info.plist */,
+				84F0CF940F2FBEF10ECDF5CC1A0F6334 /* Pods-QZToast_Tests-umbrella.h */,
+				84D3845B86420CA4408AF544BBA8F172 /* Pods-QZToast_Tests.debug.xcconfig */,
+				E9C4725647AB6B7C5E1F8AFBEFFA0F98 /* Pods-QZToast_Tests.release.xcconfig */,
+			);
+			name = "Pods-QZToast_Tests";
+			path = "Target Support Files/Pods-QZToast_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				79A81380F03F2DDD2EAB557A23F11ABF /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				CE8AE5C4CF7365E7F61633A17E7C57B6 /* Products */,
+				203B69B49358F535F40A56D40A923591 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D98AAF15480101A15CCF0E12A4261A15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC7616EFB99A2DE2EB68C12380931DC /* QZToast.modulemap */,
+				D3CFE1FE90522D7C5E3B23B72BE9135C /* QZToast.xcconfig */,
+				B36298B7BC9374190979DB2270954342 /* QZToast-dummy.m */,
+				6C5D6E519154E7CFB573F158FBDCBA38 /* QZToast-Info.plist */,
+				4AD24DE48E5FB80E66C3883412CF0699 /* QZToast-prefix.pch */,
+				2E48EF0F294DDD955758ADCC98D36B40 /* QZToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QZToast";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5803702BE5610C9521807ACF0F3D434C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA8C847143F9243BB8464264BC200DD /* Pods-QZToast_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6119733B64C39346D7981ABB02FC7DE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF5529CF0258B165C5E405332B34306 /* Pods-QZToast_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84F3BEACE83E14E5142036F9108C14D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91D793B27C543C3CC1960544362756C /* QZToast-umbrella.h in Headers */,
+				48520AA96968533A79363543E3F1E88E /* UIView+Toast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7184169D43433E76E3AD20B65CC82212 /* Pods-QZToast_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE9EBA55930A3B7132216D4B9381E62 /* Build configuration list for PBXNativeTarget "Pods-QZToast_Example" */;
+			buildPhases = (
+				6119733B64C39346D7981ABB02FC7DE5 /* Headers */,
+				7598B1389BEEB4CA87A7C281788FDEBC /* Sources */,
+				3CD59B4010E82815F067250606B19E63 /* Frameworks */,
+				94794E1542479CCD10EF934BB90AEB32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746F0D62C150A20B9600E98412C9B465 /* PBXTargetDependency */,
+			);
+			name = "Pods-QZToast_Example";
+			productName = "Pods-QZToast_Example";
+			productReference = F6E1CBC43CD698D4BB74611C1BDE1200 /* Pods_QZToast_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CE571769B905DA6B1B424C560C90C98 /* QZToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB531B6E82855204D790881369E5E1D0 /* Build configuration list for PBXNativeTarget "QZToast" */;
+			buildPhases = (
+				F84F3BEACE83E14E5142036F9108C14D /* Headers */,
+				2E6F2F66C0EA32A667AB20FABD9EF406 /* Sources */,
+				8A6EBF83472C40807B0366CBFAAFEB01 /* Frameworks */,
+				6668DAD0EBE760C6A660550DDC493D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QZToast;
+			productName = QZToast;
+			productReference = 21429AE553D983D16EF37AC6E5691D50 /* QZToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F206AD969EC990F457162F5125746F22 /* Pods-QZToast_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72555264D6FA4A55D25FF95B9EB0E8D8 /* Build configuration list for PBXNativeTarget "Pods-QZToast_Tests" */;
+			buildPhases = (
+				5803702BE5610C9521807ACF0F3D434C /* Headers */,
+				31DC222AEF31FC65FA3E11BC712F5B4C /* Sources */,
+				48B75E93D06A1635A9A820D5D8A463DE /* Frameworks */,
+				1EB1BFDE82F295909B7C7778A2B35B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C69EC11E023920D822771E6C978806BD /* PBXTargetDependency */,
+			);
+			name = "Pods-QZToast_Tests";
+			productName = "Pods-QZToast_Tests";
+			productReference = 9DEE37D7DA829A97B6E45B43D3BC4A11 /* Pods_QZToast_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CE8AE5C4CF7365E7F61633A17E7C57B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7184169D43433E76E3AD20B65CC82212 /* Pods-QZToast_Example */,
+				F206AD969EC990F457162F5125746F22 /* Pods-QZToast_Tests */,
+				8CE571769B905DA6B1B424C560C90C98 /* QZToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EB1BFDE82F295909B7C7778A2B35B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6668DAD0EBE760C6A660550DDC493D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94794E1542479CCD10EF934BB90AEB32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6F2F66C0EA32A667AB20FABD9EF406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA644EAE841D329718833DA4B6FEF06D /* QZToast-dummy.m in Sources */,
+				460C48F3BD34D9975AB70064FE716182 /* UIView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DC222AEF31FC65FA3E11BC712F5B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1547904FE3DBE0D06932748D55605D3F /* Pods-QZToast_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7598B1389BEEB4CA87A7C281788FDEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBDD52AFC3062870652601B61629210 /* Pods-QZToast_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		746F0D62C150A20B9600E98412C9B465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QZToast;
+			target = 8CE571769B905DA6B1B424C560C90C98 /* QZToast */;
+			targetProxy = 05D7778861926930746E30AD7941818F /* PBXContainerItemProxy */;
+		};
+		C69EC11E023920D822771E6C978806BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QZToast_Example";
+			target = 7184169D43433E76E3AD20B65CC82212 /* Pods-QZToast_Example */;
+			targetProxy = 2379B86D5823E6E5AA1CFDF2A38A0EC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		71C6CBC7F756ED52062F97571EB33B90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C8472C2C44CA8F1C6F8C8FC24019CF /* Pods-QZToast_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QZToast_Example/Pods-QZToast_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QZToast_Example/Pods-QZToast_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84E1385D66485AAAD23D7A438FC5A0A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CFE1FE90522D7C5E3B23B72BE9135C /* QZToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QZToast/QZToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QZToast/QZToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QZToast/QZToast.modulemap";
+				PRODUCT_MODULE_NAME = QZToast;
+				PRODUCT_NAME = QZToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AA765955A1617A7B185A49FE643009F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CFE1FE90522D7C5E3B23B72BE9135C /* QZToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QZToast/QZToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QZToast/QZToast-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QZToast/QZToast.modulemap";
+				PRODUCT_MODULE_NAME = QZToast;
+				PRODUCT_NAME = QZToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8C06EE2305AED05CD9FBDE5165DE7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D3845B86420CA4408AF544BBA8F172 /* Pods-QZToast_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QZToast_Tests/Pods-QZToast_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QZToast_Tests/Pods-QZToast_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E94B694F9921559DED27463FEDCF4494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E55463CC71B8218F9A355054FDE5521 /* Pods-QZToast_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QZToast_Example/Pods-QZToast_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QZToast_Example/Pods-QZToast_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCC56CFF964403875BCE961F92B37F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9C4725647AB6B7C5E1F8AFBEFFA0F98 /* Pods-QZToast_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QZToast_Tests/Pods-QZToast_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QZToast_Tests/Pods-QZToast_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE9EBA55930A3B7132216D4B9381E62 /* Build configuration list for PBXNativeTarget "Pods-QZToast_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E94B694F9921559DED27463FEDCF4494 /* Debug */,
+				71C6CBC7F756ED52062F97571EB33B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72555264D6FA4A55D25FF95B9EB0E8D8 /* Build configuration list for PBXNativeTarget "Pods-QZToast_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C06EE2305AED05CD9FBDE5165DE7CB /* Debug */,
+				FCC56CFF964403875BCE961F92B37F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB531B6E82855204D790881369E5E1D0 /* Build configuration list for PBXNativeTarget "QZToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E1385D66485AAAD23D7A438FC5A0A8 /* Debug */,
+				8AA765955A1617A7B185A49FE643009F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
